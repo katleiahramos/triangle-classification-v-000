@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :type,:side1, :side2, :side3
+  attr_accessor :type, :side1, :side2, :side3
 
   def initialize(side1:, side2:, side3:)
     binding.pry
