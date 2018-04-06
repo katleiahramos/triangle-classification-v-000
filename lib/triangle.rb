@@ -14,6 +14,7 @@ class Triangle
     end
   end
   def kind
+    binding.pry
     @type
   end
 
