@@ -11,7 +11,7 @@ class Triangle
 
   def categorize
     if side1
-    end 
+    end
   end
   def kind
     @type
