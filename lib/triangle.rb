@@ -1,17 +1,17 @@
 class Triangle
-  attr_accessor :type 
+  attr_accessor :type,:side1, :side2, :side3
 
-  def initialization(:L1, :L2, :L3)
-    
+  def initialization(:side1, :side2, :side3)
+
   end
 
-  def kind 
-    @type 
-  end  
+  def kind
+    @type
+  end
 
   class TriangleError < StandardError
   # triangle error code
   end
 
-  
+
 end
