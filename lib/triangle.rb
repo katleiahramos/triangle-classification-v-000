@@ -8,7 +8,6 @@ class Triangle
     @side1 = s1
     @side2 = s2
     @side3 = s3
-    binding.pry
     @sides = [@side1, @side2, @side3].sort
   end
 
