@@ -5,13 +5,13 @@ class Triangle
     @side1 = side1
     @side2 = side2
     @side3 = side3
-    @sides = [@side1, @side2, @side3]
+    @sides = [@side1, @side2, @side3].sort 
   end
 
   def categorize
     if side1
 
-  end 
+  end
   def kind
     @type
   end
