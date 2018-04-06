@@ -13,7 +13,7 @@ class Triangle
     if side1
     end
   end
-  def kind
+  def self.kind
     binding.pry
     @type
   end
