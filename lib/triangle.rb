@@ -4,10 +4,11 @@ class Triangle
   attr_accessor :type, :side1, :side2, :side3
 
   def initialize(s1, s2, s3)
-    binding.pry
+    
     @side1 = s1
     @side2 = s2
     @side3 = s3
+    binding.pry
     @sides = [@side1, @side2, @side3].sort
   end
 
