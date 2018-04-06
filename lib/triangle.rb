@@ -20,6 +20,4 @@ class Triangle
   class TriangleError < StandardError
     "This triangle is not vaid!"
   end
-
-
 end
